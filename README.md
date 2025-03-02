@@ -95,7 +95,7 @@ pyinstaller --onefile --noconsole --icon=your_icon.ico keystroke_record_check.py
 
 ---
 
-## 🖥️ **Step 5: Run the Program on Startup**
+## 🔹 **Step 5: Run the Program on Startup**
 To ensure the program launches every time the system starts, follow one of these methods:
 
 ### **Method 1: Add to Windows Startup Folder**
