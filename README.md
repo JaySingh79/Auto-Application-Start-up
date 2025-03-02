@@ -2,7 +2,8 @@
 
  **This program monitors keystrokes and executes a specific action (like opening a website or app) when a predefined keyword is typed outside text editors.**  
 
-🔹 **Use Case:** Instead of manually opening a specific website (e.g., Kaggle) or application, simply type a keyword anywhere, and the program will launch it automatically.  
+🔹 **Use Case:** Instead of manually opening a specific website or application, simply type a keyword anywhere(where your keystrokes are not being recorded), and the program will launch it automatically. 
+🔹 **The provided code shows an example to open a `link` in a specific chrome profile**
 
 ---
 
@@ -33,17 +34,11 @@ cd keystroke-launcher
 ---
 
 ### 🔹 **Step 2: Install Dependencies**
-The script requires some Python libraries. Install them using:  
+The script requires some Python libraries. Install them throught the requirements file :
 ```bash
-pip install pyinstaller pynput pygetwindow pywin32
+pin install -r requirements.txt
 ```
 
-#### **Required Libraries:**
-- `pyinstaller` → To convert Python scripts into `.exe`.  
-- `pynput` → To listen to keystrokes.  
-- `pygetwindow` & `pywin32` → To check which application is currently active.  
-
----
 
 ### 🔹 **Step 3: Configure Your Command**
 Modify **`main.py`** to execute the desired action when the keyword is detected.
