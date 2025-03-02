@@ -1,0 +1,8 @@
+keyboard
+pandas
+numpy
+pywin32
+pynput
+pygetwindow
+pyinstaller
+pillow
