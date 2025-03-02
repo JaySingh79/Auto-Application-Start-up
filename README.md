@@ -2,7 +2,8 @@
 
  **This program monitors keystrokes and executes a specific action (like opening a website or app) when a predefined keyword is typed outside text editors.**  
 
-🔹 **Use Case:** Instead of manually opening a specific website or application, simply type a keyword anywhere(where your keystrokes are not being recorded), and the program will launch it automatically. 
+🔹 **Use Case:** Instead of manually opening a specific website or application, simply type a keyword anywhere(where your keystrokes are not being recorded), and the program will launch it automatically.
+---
 🔹 **The provided code shows an example to open a `link` in a specific chrome profile**
 
 ---
