@@ -1,7 +1,3 @@
-Here’s a detailed **README** guide that you can use for your **GitHub repository**. This guide is written in a clear, structured, and beginner-friendly way to help anyone set up and use your program. 🚀  
-
----
-
 # **Keystroke-Based Application Launcher**  
 
  **This program monitors keystrokes and executes a specific action (like opening a website or app) when a predefined keyword is typed outside text editors.**  
@@ -10,7 +6,7 @@ Here’s a detailed **README** guide that you can use for your **GitHub reposito
 
 ---
 
-## 📌 **Features**
+## **Features**
 ✅ Runs in the background, silently monitoring keystrokes.  
 ✅ Detects a specific keyword typed outside of writing applications.  
 ✅ Executes a custom command (e.g., opening a website, launching an app).  
@@ -25,7 +21,7 @@ Here’s a detailed **README** guide that you can use for your **GitHub reposito
 
 ---
 
-## 🚀 **Installation Guide**
+## **Installation Guide**
 
 ### 🔹 **Step 1: Clone the Repository**
 Download the code from GitHub:  
@@ -78,7 +74,7 @@ subprocess.Popen(["notepad.exe"])
 
 ---
 
-## 🔄 **Running the Program**
+## **Running the Program**
 Once configured, run the program using:  
 ```bash
 python keystroke_record_check.py
@@ -163,4 +159,4 @@ This method can be used for **any script** that needs to trigger commands based 
 
 ---
 
-🚀 **Happy coding!** 😊
+😊 **Happy coding!** 😊
